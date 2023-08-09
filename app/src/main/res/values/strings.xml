@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Karnataka Tour Guid app</string>
+    <string name="picnic_spot">PICNIC SPOTS</string>
+    <string name="historical_place">HISTORICAL PLACES</string>
+    <string name="historical_temple">HISTORICAL TEMPLES</string>
+    <string name="hill_station">HILL STATION</string>
+    <string name="nature_places">NATURE PLACES</string>
+    <string name="resorts">RESORTS</string>
+    <string name="dams">DAMS</string>
+</resources>

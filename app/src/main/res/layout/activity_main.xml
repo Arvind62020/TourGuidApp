@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/picnic_spot"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:background="?android:attr/selectableItemBackground"
+        android:padding="16sp"
+        android:id="@+id/picnic_spots"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/historical_place"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:padding="16sp"
+        android:id="@+id/historical_place"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/historical_temple"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_purple"
+        android:padding="16sp"
+        android:id="@+id/temples"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hill_station"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="16sp"
+        android:id="@+id/hill_station"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nature_places"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/category_orange"
+
+        android:padding="16sp"
+        android:id="@+id/nature_places"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resorts"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/best_blue"
+        android:padding="16sp"
+        android:id="@+id/resorts"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dams"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@color/light_pink"
+        android:padding="16sp"
+        android:id="@+id/dams"
+        />
+</LinearLayout></ScrollView>

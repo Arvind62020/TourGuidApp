@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:id="@+id/image_view"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="Details"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:id="@+id/text"
+        android:text="textview"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/category_phrases"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/location"
+            android:text="Get Location"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/category_phrases"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/restaurant"
+            android:text="Get Restaurants"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/category_phrases"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Help Line no"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/category_phrases"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/hospital"
+            android:text="nearest hospital"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@color/category_phrases"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/more_detail"
+            android:text="Get more detail"/>
+        <TextView
+            android:layout_width="120dp"
+            android:background="@color/category_phrases"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:id="@+id/railway"
+            android:text="nearest railway st"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
